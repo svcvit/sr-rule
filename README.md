@@ -1,2 +1,2 @@
 # sr-rule
-personal rules
+自用规则
