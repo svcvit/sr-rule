@@ -1,6 +1,6 @@
 # MyList
 DOMAIN-SUFFIX,mijia.tech
-DOMAIN-SUFFIX,vcvit.me
+DOMAIN-SUFFIX,*.x.vcvit.me
 DOMAIN-SUFFIX,coffbox.com
 DOMAIN-SUFFIX,2000800.xyz
 DOMAIN-SUFFIX,wise.com
@@ -23,5 +23,3 @@ DOMAIN-SUFFIX,dsmxp.com
 DOMAIN-SUFFIX,debian.org
 DOMAIN-SUFFIX,download.nvidia.com
 DOMAIN-SUFFIX,ubuntu.com
-
-
