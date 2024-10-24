@@ -1,5 +1,5 @@
 #!name=Local DNS Mapping
-#!desc=Last Updated: 2024-08-06T16:23:35.066Z
+#!desc=Last Updated: 2024-10-24
 
 [Host]
 dns.alidns.com = 223.5.5.5, 223.6.6.6, 2400:3200:baba::1, 2400:3200::1
@@ -29,8 +29,6 @@ alikunlun.com = server:quic://dns.alidns.com:853
 *.alikunlun.com = server:quic://dns.alidns.com:853
 alikunlun.net = server:quic://dns.alidns.com:853
 *.alikunlun.net = server:quic://dns.alidns.com:853
-xiaohongshu.com = server:quic://dns.alidns.com:853
-*.xiaohongshu.com = server:quic://dns.alidns.com:853
 cdngslb.com = server:quic://dns.alidns.com:853
 *.cdngslb.com = server:quic://dns.alidns.com:853
 alipay.com = server:quic://dns.alidns.com:853
@@ -154,6 +152,8 @@ hichina.com = server:quic://dns.alidns.com:853
 dot.pub = 120.53.53.53, 1.12.12.12, 1.12.34.56
 doh.pub = 120.53.53.53, 1.12.12.12, 1.12.34.56
 dns.pub = 120.53.53.53, 1.12.12.12, 1.12.34.56, 162.14.21.178, 162.14.21.56
+xiaohongshu.com = server:https://doh.pub/dns-query
+*.xiaohongshu.com = server:https://doh.pub/dns-query
 dns.pub = server:https://doh.pub/dns-query
 *.dns.pub = server:https://doh.pub/dns-query
 doh.pub = server:https://doh.pub/dns-query
