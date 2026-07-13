@@ -1,5 +1,5 @@
-#!name=[Sukka] Local DNS Mapping
-#!desc=Last Updated: 2026-05-13T15:18:03.714Z
+#!name=[svcvit] Local DNS Mapping
+#!desc=Last Updated: 2026-07-13T15:18:03.714Z
 
 [Host]
 dns.alidns.com = 223.5.5.5, 223.6.6.6, 2400:3200:baba::1, 2400:3200::1
@@ -8,6 +8,9 @@ doh.pub = server:119.29.29.29
 dns.pub = server:119.29.29.29
 doh.360.cn = server:101.198.198.198
 RULE-SET:https://ruleset.skk.moe/List/non_ip/domestic.conf = server:https://doh.pub/dns-query
+RULE-SET:https://ruleset.skk.moe/List/non_ip/apple_cdn.conf = server:https://doh.pub/dns-query
+RULE-SET:https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf = server:https://doh.pub/dns-query
+RULE-SET:https://ruleset.skk.moe/List/non_ip/apple_cn.conf = server:https://doh.pub/dns-query
 RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/alibaba.conf = server:https://dns.alidns.com/dns-query
 RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/tencent.conf = server:https://doh.pub/dns-query
 RULE-SET:https://ruleset.skk.moe/Modules/Rules/sukka_local_dns_mapping/bilibili.conf = server:https://doh.pub/dns-query
